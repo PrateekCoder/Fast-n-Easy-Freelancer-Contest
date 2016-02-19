@@ -10,23 +10,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!--CSS Link -->
     <link rel="stylesheet" href="styles.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/responsive-paginate.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".pagination").rPage();
+        });
+    </script>
   </head>
   <body>
     <div class="container">
         <div class="row">
-            <div class="col-xs-4"></div>
-            <div class="col-xs-4">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
                 <h3 id="header">Featured Websites</h3>
             </div>
-            <div class="col-xs-4"></div>
+            <div class="col-sm-4"></div>
             </div>
         </div>
         <div class="container">
           <div class="row" id="space">
-              <div class="col-md-4">
-                  <img class="img-responsive img-thumbnail" src="images/logo4.png" alt=""/>
+              <div class="col-sm-4">
+                  <img class="img-responsive img-thumbnail" src="images/logo1.png" alt=""/>
               </div>
-              <div class="col-md-8">
+              <div class="col-sm-8">
                   <p id="texts"><a href="https://wordpress.com/">Blogging Website</a>  --https://wordpress.com/</p>
                   <p>
                     Create a free website or easily build a blog on WordPress.com. Hundreds of free, customizable, mobile-ready designs and themes. Free hosting and support.
@@ -36,10 +43,10 @@
         </div>
         <div class="container">
           <div class="row" id="space">
-              <div class="col-md-4">
-                  <img class="img-responsive img-thumbnail" src="images/logo5.png" alt=""/>
+              <div class="col-sm-4">
+                  <img class="img-responsive img-thumbnail" src="images/logo3.png" alt=""/>
               </div>
-              <div class="col-md-8">
+              <div class="col-sm-8">
                   <p id="texts"><a href="https://en.wikipedia.org/wiki/Main_Page">Search Anything</a> --https://wikipedia.com/</p>
                   <p>
                     A free encyclopedia built collaboratively using wiki software. (Creative Commons Attribution-ShareAlike License).
@@ -49,10 +56,10 @@
         </div>
         <div class="container">
           <div class="row" id="space">
-              <div class="col-md-4">
-                  <img class="img-responsive img-thumbnail" src="images/logo1.png" alt=""/>
+              <div class="col-sm-4">
+                  <img class="img-responsive img-thumbnail" src="images/logo2.png" alt=""/>
               </div>
-              <div class="col-md-8">
+              <div class="col-sm-8">
                 <p id="texts"><a href="https://github.com/">Code Sharing Platform</a> --https://github.com/</p>
                 <p>
                   GitHub is where people build software. More than 12 million people use GitHub to discover, fork, and contribute to over 31 million projects.
@@ -62,14 +69,14 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
                   <h3 id="header">Links</h3>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-sm-4"></div>
           </div>
         </div>
-        <div class="container">
+        <div class="container" id="pad">
             <div class="row">
               <p id="texts"><a href="https://facebook.com">Facebook.com</a> --https://facebook.com</p>
               <p>
@@ -111,20 +118,29 @@
               <p>
                 The best platform to find the best talent, for you project.
               </p><br>
+              </div>
 
-              <ul class="pagination">
-                  <li><a id="page" href="#">«</a></li>
-                  <li><a id="page" class="active" href="#">1</a></li>
-                  <li><a id="page" href="#">2</a></li>
-                  <li><a id="page" href="#">3</a></li>
-                  <li><a id="page" href="#">4</a></li>
-                  <li><a id="page" href="#">5</a></li>
-                  <li><a id="page" href="#">6</a></li>
-                  <li><a id="page" href="#">7</a></li>
-                  <li><a id="page" href="#">»</a></li>
-              </ul><br /><br>
-              <button type="button" class="btn btn-success">Submit</button><br><br>
             </div>
+            <div class="container">
+                <div class="row">
+                  <div style="position: relative; width: 100%; background-color: #f5f5f5; margin: 0 auto; text-align: center;">
+                      <ul class="pagination">
+                          <li class="left-etc"><a href="#">&laquo;</a></li>
+                          <li class="active">
+                              <span>
+                                  1
+                              </span>
+                          </li>
+                          <li><a href="">2</a></li>
+                          <li><a href="">3</a></li>
+                          <li><a href="">4</a></li>
+                          <li><a href="">5</a></li>
+                          <li><a href="#">&raquo;</a></li>
+                      </ul>
+                </div>
+            </div><br>
+
+            <button type="button" class="btn btn-success">Submit</button><br><br>
             <div class="row">
                <h1 id="header"></h1><br>
             </div>
