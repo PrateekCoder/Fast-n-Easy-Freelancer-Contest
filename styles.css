@@ -1,7 +1,10 @@
 #space{
   padding-bottom: 10px;
   padding-top: 10px;
-  border-bottom: 1px solid black;
+}
+
+#pad{
+
 }
 
 #header{
@@ -9,8 +12,13 @@
   text-align: center;
 }
 
+.container * {
+    padding: 5px 5px;
+}
+
 #texts{
   color: darkgray;
+
 }
 
 ul.pagination {
