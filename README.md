@@ -2,6 +2,9 @@
 #My Entry:
 ![alt](http://s11.postimg.org/dioxyszpf/entry3.png)
 
+##Link to my Submisson: 
+http://prateekcoder.github.io/Fast-n-Easy-Freelancer-Contest/
+
 ##Contest Brief:
 
 Your job: create a very simple "Links" page in Bootstrap!
