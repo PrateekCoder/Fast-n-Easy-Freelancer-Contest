@@ -1,7 +1,13 @@
-Contest Brief
+
+#My Entry:
+![alt](http://s11.postimg.org/dioxyszpf/entry3.png)
+
+##Contest Brief:
+
 Your job: create a very simple "Links" page in Bootstrap!
 
 Rules:
+
 1. I am looking for very simple design with *minimum* html/css/js code used
 2. must be based on Bootstrap 3.3.6 (responsive)
 3. no color preferences, just keep it simple!
